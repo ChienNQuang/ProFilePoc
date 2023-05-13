@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>ProFilePOC2.Domain</RootNamespace>
+        <AssemblyName>ProFilePOC2.Domain</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.5.1" />
+      <PackageReference Include="MediatR" Version="11.1.0" />
+      <PackageReference Include="ValueOf" Version="2.0.31" />
+    </ItemGroup>
+
+</Project>
